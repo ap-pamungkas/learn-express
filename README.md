@@ -37,7 +37,7 @@ PORT=3000
 
 ### 4️⃣ **Jalankan Migration** (Jika Menggunakan Sequelize)
 ```sh
-npx sequelize-cli db:migrate
+migrate:up
 ```
 
 ### 5️⃣ **Jalankan Server**
