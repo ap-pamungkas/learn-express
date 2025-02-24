@@ -1,8 +1,11 @@
 const express = require('express');
 const UserController = require('../App/Controllers/UserController');
-const router = express.Router();
+const PostController = require('../App/Controllers/PostController');
+const Route = express.Router();
 
-router.get('/user', UserController.getUser.bind(UserController));
-router.post('/user', UserController.createUser.bind(UserController));
+Route.get('/user', UserController.getUser.bind(UserController));
+Route.post('/user', UserController.createUser.bind(UserController));
 
-module.exports = router;
+Route.get('/post', PostController.getAllPost.bind(PostController));
+
+module.exports = Route;
