@@ -15,8 +15,8 @@ User Management API adalah RESTful API berbasis Node.js menggunakan Express dan 
 ## 🚀 Cara Menjalankan Proyek
 ### 1️⃣ **Clone Repository**
 ```sh
-git clone https://github.com/username/repository-name.git
-cd repository-name
+git clone https://github.com/ap-pamungkas/learn-express.git
+cd learn-express
 ```
 
 ### 2️⃣ **Instal Dependensi**
