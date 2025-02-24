@@ -1,7 +1,7 @@
 # User Management API
 
 ## 📌 Deskripsi
-User Management API adalah RESTful API berbasis Node.js menggunakan Express dan Sequelize sebagai ORM untuk mengelola data pengguna.
+belajar express dengan orm Sequelize
 
 ## 🛠 Teknologi yang Digunakan
 - **Node.js** - Runtime JavaScript
